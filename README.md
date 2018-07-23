@@ -1,2 +1,4 @@
 # mangoh_red
-MangOH Red project ported to Kicad
+[MangOH Red](https://mangoh.io/mangoh-red-resources) project ported to Kicad
+
+It is a work in progress.
