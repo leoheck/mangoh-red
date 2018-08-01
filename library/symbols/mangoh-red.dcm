@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC2G126HD4-7
+D Dual buffer gate with 3-state outputs
+F /home/lheck/Dropbox/deepx/GOAT/DATASHEETS_MANGOH/pdfs/74LVC2G126HD4-7.pdf
+$ENDCMP
+#
+$CMP CP2130-F01-GM
+D USB-to-SPI bridge
+F /home/lheck/Dropbox/deepx/GOAT/DATASHEETS_MANGOH/pdfs/CP2130-F01-GM.pdf
+$ENDCMP
+#
+$CMP FXMA108BQX
+D 8-Bit Signal Translator
+F /home/lheck/Dropbox/deepx/GOAT/DATASHEETS_MANGOH/pdfs/FXMA108BQX.pdf
+$ENDCMP
+#
+$CMP TPD6E004RSER
+D Low-Capacitance, 6-Channel ±15-kV ESD Protection Array
+$ENDCMP
+#
+$CMP TPS62420DRC
+F /home/lheck/Dropbox/deepx/GOAT/DATASHEETS_MANGOH/pdfs/TPS62420DRC.pdf
+$ENDCMP
+#
+#End Doc Library
