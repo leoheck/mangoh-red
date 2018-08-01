@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:mangoh_red_board-cache
+LIBS:mangoh-red-cache
 EELAYER 26 0
 EELAYER END
 $Descr C 22000 17000
