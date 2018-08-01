@@ -1197,12 +1197,12 @@
     (pad "" smd rect (at -10.668 -6.223 270) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
     (pad "" smd rect (at -10.668 -3.937 270) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
     (pad "" smd rect (at -10.668 -3.175 270) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
-    (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/WP_2.5mm_module.stp
+    (model ${KIPRJMOD}/library/3dparts/WP_2.5mm_module.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/snap_in_for_WP_2.5mm_module/snap_in_for_wp_2.5mm_module.stp
+    (model ${KIPRJMOD}/library/3dparts/snap_in_for_wp_2.5mm_module.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -20174,7 +20174,7 @@
     (pad 10 thru_hole oval (at -2.9 -0.75 180) (size 1.2 2.4) (drill oval 0.6 1.7) (layers *.Cu *.Mask))
     (pad 10 thru_hole oval (at 9.9 7.75 180) (size 1.2 2.1) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
     (pad 10 thru_hole oval (at -2.9 7.75 180) (size 1.2 2.1) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
-    (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/75762895-19-14388/14388.stp
+    (model ${KIPRJMOD}/library/3dparts/USB-A-14388.step
       (offset (xyz 4 -12.5 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -20631,7 +20631,7 @@
     (pad "" np_thru_hole circle (at 0 2.7) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
     (pad 2 smd rect (at 3.5 -4.7) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 387 "Net-(CN500-Pad2)"))
-    (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/75762843-19-sj-43504-smt-tr/sj-43504-smt-tr.stp
+    (model ${KIPRJMOD}/library/3dparts/sj-43504-smt-tr.step
       (offset (xyz 0 7.5 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
