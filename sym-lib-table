@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MangOH-Red)(type Legacy)(uri ${KIPRJMOD}/library/symbols/mangoh-red.lib)(options "")(descr "MangOH Red custom components"))
+  (lib (name MangOH-Red-Extra)(type Legacy)(uri ${KIPRJMOD}/library/symbols/power.lib)(options "")(descr "MangOH Red custom components (extra)"))
+)
