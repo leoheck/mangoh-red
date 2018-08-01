@@ -18,49 +18,49 @@ $Sheet
 S 10150 1550 3650 400 
 U 5B20369B
 F0 "2. CF3 Socket" 128
-F1 "cf3_socket.sch" 50
+F1 "sch/cf3_socket.sch" 50
 $EndSheet
 $Sheet
 S 10150 2350 3650 400 
 U 5B2036AB
 F0 "3. RF, USB, IOT connectors" 128
-F1 "rf_usb_iot_connectors.sch" 50
+F1 "sch/rf_usb_iot_connectors.sch" 50
 $EndSheet
 $Sheet
 S 10150 3900 3650 450 
 U 5B2036E3
 F0 "5. AUDIO (ANALOG & PCM)" 128
-F1 "audio.sch" 50
+F1 "sch/audio.sch" 50
 $EndSheet
 $Sheet
 S 10150 4700 3650 450 
 U 5B2036F1
 F0 "6. SIM cards, SD card, SDIO mux" 128
-F1 "simcard_sdcard_sdio_mux.sch" 50
+F1 "sch/simcard_sdcard_sdio_mux.sch" 50
 $EndSheet
 $Sheet
 S 10150 5500 3650 450 
 U 5B203704
 F0 "7. USB HUB, GPIO Expander, FTDI conv" 128
-F1 "usb_hub_gpio_expander_ftdi_conv.sch" 50
+F1 "sch/usb_hub_gpio_expander_ftdi_conv.sch" 50
 $EndSheet
 $Sheet
 S 10150 6350 3650 450 
 U 5B20371E
 F0 "8. Battery Charger and USB power" 128
-F1 "battery_charger_usb_power.sch" 50
+F1 "sch/battery_charger_usb_power.sch" 50
 $EndSheet
 $Sheet
 S 10150 7150 3650 450 
 U 5B20372F
 F0 "9. 1V8,3V3,5V0 Power Supply" 128
-F1 "power_supply.sch" 50
+F1 "sch/power_supply.sch" 50
 $EndSheet
 $Sheet
 S 10150 7900 3650 550 
 U 5B20373C
 F0 "10. WIFI and BT" 128
-F1 "wifi_bluetooth.sch" 50
+F1 "sch/wifi_bluetooth.sch" 50
 $EndSheet
 Text Notes 2350 2050 0    207  ~ 0
 MangOH Red Platform
@@ -78,6 +78,6 @@ $Sheet
 S 10150 3150 3650 450 
 U 5B2036CF
 F0 "4. RESET, CTRL switch, I2C HUB" 128
-F1 "reset_ctrl_switch_i2c_hub.sch" 50
+F1 "sch/reset_ctrl_switch_i2c_hub.sch" 50
 $EndSheet
 $EndSCHEMATC
