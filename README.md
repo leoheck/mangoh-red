@@ -1,4 +1,14 @@
-# mangoh_red
-[MangOH Red](https://mangoh.io/mangoh-red-resources) project ported to Kicad
+# MangOH Red
 
-It is a work in progress.
+[MangOH Red](https://mangoh.io/mangoh-red-resources) board was build using Mentor DxDesigner for schematics and Pantheon PCB for layouts. This project aims to build a version using the GREAT Kicad.
+
+This project is a work in progress.
+
+Current status
+- [x] Schematics
+- [ ] Footprint associations 
+- [ ] 3D Parts associations
+- [ ] Layout
+
+Feel free to help me with a PR :)
+
