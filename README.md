@@ -6,9 +6,8 @@ This project is a work in progress.
 
 Current status
 - [x] Schematics
-- [ ] Footprint associations 
-- [ ] 3D Parts associations
-- [ ] Layout
+- [ ] Footprint associations (80%)
+- [ ] 3D Parts associations (80%)
+- [ ] Layout (10%)
 
 Feel free to help me with a PR :)
-
