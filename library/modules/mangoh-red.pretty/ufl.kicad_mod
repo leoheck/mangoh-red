@@ -20,7 +20,7 @@
   (pad 1 smd rect (at -1.5 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1.5) (size 2.2 1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 1.5) (size 2.2 1) (layers F.Cu F.Paste F.Mask))
-  (model "/home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/u-fl-antenna-connector-523-a-1jb-1.snapshot.2/u.Fl Antenna Connector - 523-A-1JB.STEP"
+  (model "./library/3dparts/u.Fl-523-A-1JB.step Antenna Connector - 523-A-1JB.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

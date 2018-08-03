@@ -269,12 +269,12 @@
   (pad "" smd rect (at -8.89 -9.95) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 4.3815 -9.95 180) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 8.1915 -9.95 180) (size 0.5 1) (layers F.Cu F.Paste F.Mask))
-  (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/WP_2.5mm_module.stp
+  (model ./library/3dparts/WP_2.5mm_module.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model /home/lheck/Dropbox/deepx/GOAT/mangoh_red_board/3dParts/snap_in_for_WP_2.5mm_module/snap_in_for_wp_2.5mm_module.stp
+  (model ./library/3dparts/snap_in_for_wp_2.5mm_module.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
