@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:mangoh-red-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -520,7 +519,7 @@ U 1 1 5D09D1BD
 P 7250 8450
 F 0 "TP500" V 7250 8638 50  0000 L CNN
 F 1 "TestPoint" V 7295 8638 50  0001 L CNN
-F 2 "" H 7450 8450 50  0001 C CNN
+F 2 "MangOH-Red:Test_Point_Pad_d_0035" H 7450 8450 50  0001 C CNN
 F 3 "~" H 7450 8450 50  0001 C CNN
 	1    7250 8450
 	0    1    1    0   
