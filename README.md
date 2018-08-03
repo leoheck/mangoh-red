@@ -7,7 +7,11 @@ _This project is a work in progress._
 Current status
 - [x] [Schematics](https://github.com/leoheck/mangoh-red/blob/master/mangoh-red.pdf)
 - [ ] Footprint associations (80%)
-- [ ] 3D Parts associations (80%)
-- [ ] Layout (10%)
+- [ ] Missing footprints creation
+- [ ] Footprint placement
+- [ ] 3D models associations
+- [ ] Missing 3D models creation
+- [ ] PCB form factor
+- [ ] Routing (10%)
 
 Feel free to help me with a PR :)
