@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mangoh-red-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 10150 1550 3650 400 
+S 10200 1500 3650 400 
 U 5B20369B
 F0 "2. CF3 Socket" 128
 F1 "sch/cf3_socket.sch" 50
