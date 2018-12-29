@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MangOH-Red)(type Legacy)(uri ${KIPRJMOD}/library/symbols/mangoh-red.lib)(options "")(descr "MangOH Red custom components"))
   (lib (name MangOH-Red-Extra)(type Legacy)(uri ${KIPRJMOD}/library/symbols/extra.lib)(options "")(descr "MangOH Red custom components (extra)"))
+  (lib (name WP_SNAP-IN_BASE)(type Legacy)(uri ${KIPRJMOD}/library/symbols/WP_SNAP-IN_BASE.lib)(options "")(descr ""))
 )

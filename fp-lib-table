@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MangOH-Red)(type KiCad)(uri ${KIPRJMOD}/library/modules/mangoh-red.pretty)(options "")(descr "MangOH Red custom footprints"))
+  (lib (name WP_SNAP-IN_BASE)(type Legacy)(uri ${KIPRJMOD}/library/modules/WP_SNAP-IN_BASE.mod)(options "")(descr ""))
 )
