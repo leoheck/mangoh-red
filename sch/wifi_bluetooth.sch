@@ -1,4 +1,5 @@
 EESchema Schematic File Version ?
+LIBS:mangoh-red-cache
 EELAYER 29 0
 EELAYER END
 $Descr C 22000 17000
