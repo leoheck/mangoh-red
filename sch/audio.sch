@@ -1,4 +1,4 @@
-EESchema Schematic File Version ?
+EESchema Schematic File Version 44
 LIBS:mangoh-red-cache
 EELAYER 29 0
 EELAYER END
