@@ -23,7 +23,7 @@
   )
   (pad 1 smd roundrect (at -4.8125 0) (size 1.475 5.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.169492))
   (pad 2 smd roundrect (at 4.8125 0) (size 1.475 5.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.169492))
-  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_4020_10251Metric.wrl
+  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_4020_10251Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

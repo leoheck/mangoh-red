@@ -31,7 +31,7 @@
   (pad 7 smd rect (at 0 0) (size 0.61 1.42) (layers F.Cu F.Mask))
   (pad "" smd rect (at 0 -0.355) (size 0.5 0.56) (layers F.Paste))
   (pad "" smd rect (at 0 0.355) (size 0.5 0.56) (layers F.Paste))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

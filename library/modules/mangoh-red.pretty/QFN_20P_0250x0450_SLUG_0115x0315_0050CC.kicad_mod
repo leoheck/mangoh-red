@@ -59,7 +59,7 @@
   (pad 18 smd roundrect (at 0.25 -1.9625) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 19 smd roundrect (at -0.25 -1.9625) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 20 smd roundrect (at -0.75 -1.9625) (size 0.25 0.825) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-20-1EP_3x4mm_P0.5mm_EP1.65x2.65mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-20-1EP_3x4mm_P0.5mm_EP1.65x2.65mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

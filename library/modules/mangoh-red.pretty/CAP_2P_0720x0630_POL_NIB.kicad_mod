@@ -23,7 +23,7 @@
   )
   (pad 1 smd roundrect (at -4.175 0) (size 2.1 10.45) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.119048))
   (pad 2 smd roundrect (at 4.175 0) (size 2.1 10.45) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.119048))
-  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_3640_9110Metric.wrl
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_3640_9110Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
