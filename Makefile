@@ -49,3 +49,19 @@ $(PLOT): $(SRC)
 build/%.step: %.kicad_pcb $(SRC)
 	mkdir -p "$(@D)"
 	kicad2step --no-virtual --drill-origin --force -o "$@" "$<"
+
+
+
+# sudo apt install python3-pip
+# sudo -H pip3 install lxml
+# sudo -H pip3 install unicode
+svg_lib = ~/Dropbox/kicad-plugins/PcbDraw-Lib/KiCAD-base
+svg_style = $(shell pwd)/svg_board_style.json
+
+svg:
+	/home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
+		--style=$(svg_style) \
+		--no-drillholes \
+		$(svg_lib) \
+		mangoh-red.kicad_pcb \
+		mangoh-red.svg
