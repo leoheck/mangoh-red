@@ -59,7 +59,7 @@ svg_lib = ~/Dropbox/kicad-plugins/PcbDraw-Lib/KiCAD-base
 svg_style = $(shell pwd)/svg_board_style.json
 
 svg:
-	/home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
+	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
 		--style=$(svg_style) \
 		--no-drillholes \
 		$(svg_lib) \
