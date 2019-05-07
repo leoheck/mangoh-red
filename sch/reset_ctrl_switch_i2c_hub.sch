@@ -1,6 +1,5 @@
-EESchema Schematic File Version 4
-LIBS:mangoh-red-cache
-EELAYER 26 0
+EESchema Schematic File Version ?
+EELAYER 29 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
