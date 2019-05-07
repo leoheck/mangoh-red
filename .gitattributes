@@ -1,0 +1,12 @@
+# Commands to avoid changing project date every time project is opened.
+# git config --global filter.kicad_pro.clean "sed -E 's/^update=.*$/update=Date/'"
+# git config --global filter.kicad_pro.smudge cat
+
+*.pro filter=kicad_pro
+
+# Commands to avoid track power flag numbering
+# git config --global filter.kicad_sch.clean "sed -E 's/#(PWR|FLG)[0-9]+/#\1?/'"
+# git config --global filter.kicad_sch.clean "sed -E 's/(EESchema Schematic File Version) [0-9]+/\1 ?/'"
+# git config --global filter.kicad_sch.smudge cat
+
+*.sch filter=kicad_sch
