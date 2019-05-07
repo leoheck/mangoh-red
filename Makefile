@@ -58,10 +58,21 @@ build/%.step: %.kicad_pcb $(SRC)
 svg_lib = ~/Dropbox/kicad-plugins/PcbDraw-Lib/KiCAD-base
 svg_style = $(shell pwd)/svg_board_style.json
 
-svg:
+svg: svg-front svg-back
+
+svg-front:
 	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
 		--style=$(svg_style) \
 		--no-drillholes \
 		$(svg_lib) \
 		mangoh-red.kicad_pcb \
-		mangoh-red.svg
+		mangoh-red-front.svg
+
+svg-back:
+	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
+		--back \
+		--style=$(svg_style) \
+		--no-drillholes \
+		$(svg_lib) \
+		mangoh-red.kicad_pcb \
+		mangoh-red-back.svg
