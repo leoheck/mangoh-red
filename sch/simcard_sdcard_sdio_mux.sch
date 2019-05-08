@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4?
-LIBS:mangoh-red-cache
+EESchema Schematic File Version 4
 EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
