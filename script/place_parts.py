@@ -1,6 +1,7 @@
-# /usr/bin/python3
+#!/usr/bin/python3
 
-# exec(open("/home/lheck/Downloads/mangoh-red/place_parts.py").read())
+# Running it on kicad
+# exec(open("/home/lheck/Downloads/mangoh-red/script/place_parts.py").read())
 
 from optparse import OptionParser
 import inspect
@@ -18,8 +19,7 @@ import numpy as np
 import pcbnew
 from lxml import etree
 
-
-def parse_parts_placement(file_path):
+def parse_parts_placement(file_path, verbose=0):
 	refs = {}
 	cnt = 0
 	for line in open(file_path):
@@ -28,38 +28,66 @@ def parse_parts_placement(file_path):
 		refs[l[0]] = [float(l[1]), float(l[2]), float(l[3]), face]
 		cnt += 1
 	print("refs", cnt-1)
-	# for key, val in refs.items():
-	# 	print(key, "=>", val)
+	if verbose:
+		for key, val in refs.items():
+			print("{0:7} => {1:8.3f} {2:8.3f} {3:4.0f} {4:d}".format(key, val[0], val[1], val[2], val[3]))
 	return refs
 
 
 if __name__ == "__main__":
 
+	board = pcbnew.GetBoard()
+	placement_file = "/home/lheck/Downloads/mangoh-red/mangoh-red-parts-placement.txt"
+
+
+
 	# parser = argparse.ArgumentParser()
-	# parser.add_argument("board", help=".kicad_pcb")
+	# parser.add_argument("board", help="The .kicad_pcb board file")
+	# parser.add_argument("placement", help="Placement file")
 	# args = parser.parse_args()
 
-	# board = pcbnew.GetBoard()
-	# for part in board.Get
+	# if args.board:
+	# 	board = pcbnew.LoadBoard(args.board)
+	# else:
+	# 	board = pcbnew.GetBoard()
 
-	board = pcbnew.GetBoard()
-	# board = pcbnew.LoadBoard(args.board)
-	# board = pcbnew.LoadBoard("mangoh-red.kicad_pcb")
+	# if args.placement:
+	# 	placement_file = args.placement
+	# else:
+	# 	placement_file = "/home/lheck/Downloads/mangoh-red/mangoh-red-parts-placement.txt"
 
-	board_path = board.GetFileName()
-	print(board_path)
+	# board_path = board.GetFileName()
+	# print("Board file:", board_path)
+	# print("Placement file:", placement_file)
 
-	locs = parse_parts_placement("./mangoh-red-parts-placement.txt")
+	locs = parse_parts_placement(placement_file, verbose=0)
+	# dni = parse_dni(placement_file, verbose=0)
 
 	missing_cnt = 0
 	missing = []
+
+	pcb_origin_x = pcbnew.FromMM(119.83)
+	pcb_origin_y = pcbnew.FromMM(55.53)
+
+	pcb_end_x = pcbnew.FromMM(190.03)
+	pcb_end_y = pcbnew.FromMM(117.03)
+
+	parts_offset_x = pcbnew.FromMM(5.50)
+	parts_offset_y = pcbnew.FromMM(3.50)
+
+	print("")
+	print("=============================================")
+	print("PCB dimensions (x)", pcbnew.ToMM(pcb_end_x - pcb_origin_x))
+	print("PCB dimensions (y)", pcbnew.ToMM(pcb_end_y - pcb_origin_y))
+	print("===")
+	print("Parts origin (x)", pcbnew.ToMM(pcb_origin_x + parts_offset_x))
+	print("Parts origin (y)", pcbnew.ToMM(pcb_origin_y + parts_offset_y))
 
 	for mod in board.GetModules():
 
 		ref = mod.GetReference()
 		# pos = mod.GetPosition()
 		# ori = mod.GetOrientation()
-		# print(ref, pos, ori)
 
 		if (ref not in locs):
 			print("couldnt get loc info for {}".format(ref))
@@ -67,37 +95,26 @@ if __name__ == "__main__":
 			missing_cnt = missing_cnt + 1
 			continue
 
-		# eeschema stores stuff in 1000ths of an inch.
-		# pcbnew stores in 10e-6 mm
-		# 1000ths inch * inch/1000ths inch * 25.4mm/inch * 10e6
-		# oldvalue * 25.4 / 10e4
+		x = pcb_origin_x + parts_offset_x + pcbnew.FromMM(locs[ref][0])
+		y = pcb_origin_y + parts_offset_y + pcbnew.FromMM(locs[ref][1])
 
-		origin_x = 125 * 1e6
-		origin_y = 59 * 1e6
+		# For some reason we have to mirror yaxis
+		y = (pcb_origin_y) + (pcb_end_y - y)
 
-		# edge_offset_x = origin_x - ((191) * 1e6)
-		# edge_offset_y = origin_y - ((117) * 1e6)
+		# Move component to the right face
+		# Remove parts when schematic says to DO NOT MOUNT (dni)
 
-		# FromMM(30)
-
-		if (locs[ref][3] == 0):
-			newx = (origin_x + (locs[ref][0] * 2.54 * 1e6 * 0.4))
-			newy = (origin_y + (locs[ref][1] * 2.54 * 1e6 * 0.4))
-
-			mod.SetPosition(pcbnew.wxPoint(int(newx), int(newy)))
-			mod.SetOrientation(locs[ref][2]*10)
-
-		# print("Attributes:", ref, mod.GetLayer(), locs[ref][3])
 		# if locs[ref][3] == 0:
-		# 	mod.SetLayer(0)
-		# elif locs[ref][3] == 1:
-		# 	mod.SetLayer(31)
 
-		# print("Placing {} at ({}, {})".format(ref, newx, newy))
+		mod.SetPosition(pcbnew.wxPoint(int(x), int(y)))
+		mod.SetOrientation(locs[ref][2]*10)
 
-	# when running as a plugin, this isn't needed. it's done for you
+		print("Placing {} at ({}, {})".format(ref, pcbnew.ToMM(x), pcbnew.ToMM(y)))
+
 	pcbnew.Refresh();
-	print("Missing parts", missing_cnt, missing)
+
+	if missing:
+		print("Missing parts", missing_cnt, missing)
 
 
-# exec(open("/home/lheck/Downloads/mangoh-red/place_parts.py").read())
+# exec(open("/home/lheck/Downloads/mangoh-red/script/place_parts.py").read())
