@@ -14,7 +14,6 @@ SRC=\
 PROJECTS=\
 	mangoh-red \
 
-
 PLOT=\
 	$(addprefix build/,$(addsuffix -CuBottom.gbr,$(PROJECTS))) \
 	$(addprefix build/,$(addsuffix -MaskBottom.gbr,$(PROJECTS))) \
@@ -47,32 +46,45 @@ $(PLOT): $(SRC)
 	for pcb in *.kicad_pcb; do ./script/plot "$$pcb" "$(@D)"; done
 
 build/%.step: %.kicad_pcb $(SRC)
-	mkdir -p "$(@D)"
-	kicad2step --no-virtual --drill-origin --force -o "$@" "$<"
-
-
+	mkdir -p "$(@D)"\
 
 # sudo apt install python3-pip
 # sudo -H pip3 install lxml
 # sudo -H pip3 install unicode
-svg_lib = ~/Dropbox/kicad-plugins/PcbDraw-Lib/KiCAD-base
+# svg_lib = ~/Dropbox/kicad-plugins/PcbDraw-Lib/KiCAD-base
+svg_lib = ./library/svg
 svg_style = $(shell pwd)/svg_board_style.json
 
 svg: svg-front svg-back
 
 svg-front:
-	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
+	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw.py \
 		--style=$(svg_style) \
 		--no-drillholes \
+		--remap library/svg/svg_map.json \
 		$(svg_lib) \
 		mangoh-red.kicad_pcb \
-		mangoh-red-front.svg
+		front.svg
+	xdg-open front.svg &
 
 svg-back:
-	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw_lheck.py \
+	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw.py \
 		--back \
 		--style=$(svg_style) \
 		--no-drillholes \
+		--remap library/svg/svg_map.json \
 		$(svg_lib) \
 		mangoh-red.kicad_pcb \
-		mangoh-red-back.svg
+		back.svg
+	xdg-open back.svg &
+
+list:
+	python3 /home/lheck/Dropbox/kicad-plugins/PcbDraw/pcbdraw.py \
+		--list-components ./library/svg mangoh-red.kicad_pcb \
+		pcb.svg
+
+cleanall:
+	rm -rf build
+	rm -f back.svg
+	rm -f front.svg
+	rm -r report.txt
