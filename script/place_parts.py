@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-# Running it on kicad
+# Slides:  https://kicad-kicon.com/wp-content/uploads/2019/05/Maciej-Suminski-kicon_python.pdf
+# Docs:    https://kicad-downloads.s3.cern.ch/doxygen-python/classpcbnew_1_1MODULE.html#af3310e2401ecd3f0614dde34003ce0e0
+# Plugins: https://github.com/MitjaNemec/Kicad_action_plugins
+
+# Running the scrit inside of the Kicad
 # exec(open("/home/lheck/Downloads/mangoh-red/script/place_parts.py").read())
 
 from optparse import OptionParser
@@ -39,8 +43,6 @@ if __name__ == "__main__":
 	board = pcbnew.GetBoard()
 	placement_file = "/home/lheck/Downloads/mangoh-red/mangoh-red-parts-placement.txt"
 
-
-
 	# parser = argparse.ArgumentParser()
 	# parser.add_argument("board", help="The .kicad_pcb board file")
 	# parser.add_argument("placement", help="Placement file")
@@ -66,11 +68,11 @@ if __name__ == "__main__":
 	missing_cnt = 0
 	missing = []
 
-	pcb_origin_x = pcbnew.FromMM(119.83)
-	pcb_origin_y = pcbnew.FromMM(55.53)
+	pcb_origin_x = pcbnew.FromMM(120.0)
+	pcb_origin_y = pcbnew.FromMM(55.0)
 
-	pcb_end_x = pcbnew.FromMM(190.03)
-	pcb_end_y = pcbnew.FromMM(117.03)
+	pcb_end_x = pcbnew.FromMM(190.026214)
+	pcb_end_y = pcbnew.FromMM(116.797744)
 
 	parts_offset_x = pcbnew.FromMM(5.50)
 	parts_offset_y = pcbnew.FromMM(3.50)
@@ -86,8 +88,7 @@ if __name__ == "__main__":
 	for mod in board.GetModules():
 
 		ref = mod.GetReference()
-		# pos = mod.GetPosition()
-		# ori = mod.GetOrientation()
+		pos = mod.GetPosition()
 
 		if (ref not in locs):
 			print("couldnt get loc info for {}".format(ref))
@@ -101,20 +102,28 @@ if __name__ == "__main__":
 		# For some reason we have to mirror yaxis
 		y = (pcb_origin_y) + (pcb_end_y - y)
 
-		# Move component to the right face
-		# Remove parts when schematic says to DO NOT MOUNT (dni)
+		# Move components to the right face (flip)
+		if locs[ref][3] == 0:
+			if not mod.IsFlipped():
+				mod.Flip(pos)
+		else:
+			if mod.IsFlipped():
+				mod.Flip(pos)
 
-		# if locs[ref][3] == 0:
+		# Remove 3d model from the parts when schematic says to DO NOT MOUNT (dni)
+		models = mod.Models()
 
 		mod.SetPosition(pcbnew.wxPoint(int(x), int(y)))
 		mod.SetOrientation(locs[ref][2]*10)
 
 		print("Placing {} at ({}, {})".format(ref, pcbnew.ToMM(x), pcbnew.ToMM(y)))
 
-	pcbnew.Refresh();
+	pcbnew.Refresh();	
 
 	if missing:
 		print("Missing parts", missing_cnt, missing)
 
+#pcbnew.SaveBoard(file, board)
+#mod= FindModuleByReference("SW400")
 
 # exec(open("/home/lheck/Downloads/mangoh-red/script/place_parts.py").read())
