@@ -1,4 +1,4 @@
-(module SIERRA_WP_SNAP-IN_BASE (layer F.Cu) (tedit 5CD0D21B)
+(module SIERRA_WP_SNAP-IN_BASE (layer F.Cu) (tedit 5CD48C29)
   (attr smd)
   (fp_text reference Ref** (at 0 -15) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -293,7 +293,17 @@
   (pad 164 smd rect (at -10.65 7.2) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 165 smd rect (at -10.65 8) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 166 smd rect (at -10.65 8.8) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD${KIPRJMOD}/library/3dparts/snap_in_for_wp_2.5mm_module.step
+  (pad 112 smd rect (at 10.65 -4 180) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 126 smd rect (at 4 -9.95 270) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 127 smd rect (at 3.2 -9.95 270) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 137 smd rect (at -4.8 -9.95 270) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 138 smd rect (at -5.6 -9.95 270) (size 1 0.5) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/library/3dparts/snap_in_for_wp_2.5mm_module.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ${KIPRJMOD}/library/3dparts/WP_2.5mm_module.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
