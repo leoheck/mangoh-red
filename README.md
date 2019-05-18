@@ -6,14 +6,19 @@ _This project is a work in progress._
 
 Current status
 - [x] [Schematics](https://github.com/leoheck/mangoh-red/blob/master/mangoh-red.pdf)
-- [ ] Footprint associations (80%)
-- [ ] Missing footprints creation
-- [ ] Footprint placement
-- [ ] 3D models associations
+- [x] Footprint associations (100%)
+- [-] Footprint review (80%)
+- [x] Footprint placement (100%)
+- [x] 3D models associations (90%)
 - [ ] Missing 3D models creation
-- [ ] PCB form factor
-- [ ] Routing (10%)
-- [ ] Bill of materials
+- [x] PCB form factor
+- [ ] Routing
+- [x] Bill of materials
 - [ ] GERBERS
 
-Feel free to help me with a PR :)
+Current board and 3d view
+
+![Current Board Layout](./docs/layout.png?raw=true "Current Board Layout")
+![Current Board 3D Model](./docs/3dmodel.png?raw=true "Current Board 3D Model")
+
+*Feel free to help me with a PR :)*
