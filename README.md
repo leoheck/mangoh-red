@@ -7,7 +7,7 @@ _This project is a work in progress._
 Current status
 - [x] [Schematics](https://github.com/leoheck/mangoh-red/blob/master/mangoh-red.pdf)
 - [x] Footprint associations (100%)
-- [-] Footprint review (80%)
+- [ ] Fix some footprints (80%)
 - [x] Footprint placement (100%)
 - [x] 3D models associations (90%)
 - [ ] Missing 3D models creation
@@ -18,7 +18,9 @@ Current status
 
 Current board and 3d view
 
-![Current Board Layout](./docs/layout.png?raw=true "Current Board Layout")
-![Current Board 3D Model](./docs/3dmodel.png?raw=true "Current Board 3D Model")
+<img width="600" alt="portfolio_view" src="./docs/layout.png">
+
+<img width="600" alt="portfolio_view" src="./docs/3dmodel.png">
 
 *Feel free to help me with a PR :)*
+
