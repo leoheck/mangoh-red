@@ -32,6 +32,9 @@ F 0 "J200" H 5900 3300 60  0000 C CNN
 F 1 "CF3-Socket" H 5900 3450 60  0000 C CNN
 F 2 "MangOH-Red:SIERRA_WP_SNAP-IN_BASE" H 3700 4400 50  0001 C CNN
 F 3 "" H 3700 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 3700 4400 50  0001 C CNN "MPN"
+F 5 "9.91" H 3700 4400 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 3700 4400 50  0001 C CNN "URL"
 	1    3700 4400
 	1    0    0    -1  
 $EndComp
@@ -45,6 +48,9 @@ F 0 "J200" H 15400 2590 60  0000 C CNN
 F 1 "CF3-Socket" H 15400 2484 60  0000 C CNN
 F 2 "MangOH-Red:SIERRA_WP_SNAP-IN_BASE" H 14900 2300 50  0001 C CNN
 F 3 "" H 14900 2300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 14900 2300 50  0001 C CNN "MPN"
+F 5 "9.91" H 14900 2300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 14900 2300 50  0001 C CNN "URL"
 	4    14900 2300
 	1    0    0    -1  
 $EndComp
@@ -58,6 +64,9 @@ F 0 "J200" H 18550 2850 60  0000 L CNN
 F 1 "CF3-Socket" H 18400 2750 60  0000 L CNN
 F 2 "MangOH-Red:SIERRA_WP_SNAP-IN_BASE" H 18150 2550 50  0001 C CNN
 F 3 "" H 18150 2550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 18150 2550 50  0001 C CNN "MPN"
+F 5 "9.91" H 18150 2550 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 18150 2550 50  0001 C CNN "URL"
 	3    18150 2550
 	1    0    0    -1  
 $EndComp
@@ -558,6 +567,9 @@ F 0 "J200" H 6450 9750 60  0000 L CNN
 F 1 "CF3-Socket" H 6250 9900 60  0000 L CNN
 F 2 "MangOH-Red:SIERRA_WP_SNAP-IN_BASE" H 3850 11050 50  0001 C CNN
 F 3 "" H 3850 11050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 3850 11050 50  0001 C CNN "MPN"
+F 5 "9.91" H 3850 11050 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/sierra-wireless/HL-SNAP-IN-BASE_6000595/1645-1008-1-ND/5843827" H 3850 11050 50  0001 C CNN "URL"
 	2    3850 11050
 	1    0    0    -1  
 $EndComp
@@ -2489,4 +2501,26 @@ Wire Wire Line
 Wire Wire Line
 	3500 6300 3700 6300
 NoConn ~ 3850 11550
+$Comp
+L MangOH-Red:WP_SNAP_IN_SOCKET_COVER U1
+U 1 1 5CEA319D
+P 13250 6100
+F 0 "U1" H 13378 6146 50  0000 L CNN
+F 1 "WP_SNAP_IN_SOCKET_COVER" H 13378 6055 50  0000 L CNN
+F 2 "" H 13250 6100 50  0001 C CNN
+F 3 "" H 13250 6100 50  0001 C CNN
+	1    13250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MangOH-Red:WP_SNAP_IN_IC U2
+U 1 1 5CEA5030
+P 13250 6350
+F 0 "U2" H 13378 6396 50  0000 L CNN
+F 1 "WP_SNAP_IN_IC" H 13378 6305 50  0000 L CNN
+F 2 "" H 13250 6350 50  0001 C CNN
+F 3 "" H 13250 6350 50  0001 C CNN
+	1    13250 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
