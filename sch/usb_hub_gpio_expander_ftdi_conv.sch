@@ -33,6 +33,8 @@ F 1 "BMI160" H 20000 8384 60  0000 C CNN
 F 2 "MangOH-Red:QFN_14P_0250x0300_0050CC" H 19400 8200 50  0001 C CNN
 F 3 "" H 19400 8200 50  0001 C CNN
 F 4 "BMI160" H 19400 8200 50  0001 C CNN "MPN"
+F 5 "5.39" H 19400 8200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI160/828-1057-1-ND/6136308" H 19400 8200 50  0001 C CNN "URL"
 	1    19400 8200
 	1    0    0    -1  
 $EndComp
@@ -45,6 +47,8 @@ F 1 "BMP280" H 18850 11434 60  0000 C CNN
 F 2 "MangOH-Red:DFN_8P_0250x0200_0065CC" H 18300 11250 50  0001 C CNN
 F 3 "" H 18300 11250 50  0001 C CNN
 F 4 "BMP280" H 18300 11250 50  0001 C CNN "MPN"
+F 5 "3.48" H 18300 11250 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMP280/828-1064-1-ND/6136315" H 18300 11250 50  0001 C CNN "URL"
 	1    18300 11250
 	1    0    0    -1  
 $EndComp
@@ -57,6 +61,8 @@ F 1 "CP2130-F01-GM" H 16850 3034 60  0000 C CNN
 F 2 "MangOH-Red:QFN_24P_0400x0400_SLUG_0270x0270_0050CC" H 16100 2850 50  0001 C CNN
 F 3 "" H 16100 2850 50  0001 C CNN
 F 4 "CP2130-F01-GM" H 16100 2850 50  0001 C CNN "MPN"
+F 5 "1.81" H 16100 2850 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/silicon-labs/CP2130-F01-GM/336-2585-ND/4477252" H 16100 2850 50  0001 C CNN "URL"
 	1    16100 2850
 	1    0    0    -1  
 $EndComp
@@ -69,6 +75,8 @@ F 1 "MIC2026-1YM" H 4800 15184 60  0000 C CNN
 F 2 "MangOH-Red:SOIC_8P_0490x0390_0127CC" H 4300 15000 50  0001 C CNN
 F 3 "" H 4300 15000 50  0001 C CNN
 F 4 "MIC2026-1YM" H 4300 15000 50  0001 C CNN "MPN"
+F 5 "1.03" H 4300 15000 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MIC2026-1YM/576-2137-ND/1027887" H 4300 15000 50  0001 C CNN "URL"
 	1    4300 15000
 	1    0    0    -1  
 $EndComp
@@ -81,6 +89,8 @@ F 1 "PNJ4K01F" H 18900 14134 60  0000 C CNN
 F 2 "MangOH-Red:DFN_6P_0155x0150_0050CC" H 18400 13950 50  0001 C CNN
 F 3 "" H 18400 13950 50  0001 C CNN
 F 4 "PNJ4K01F" H 18400 13950 50  0001 C CNN "MPN"
+F 5 "-" H 18400 13950 50  0001 C CNN "Price"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic/PNJ4K01F?qs=sGAEpiMZZMtfXl%252BsADUrUNDrk9U0QUsJ2uclN2R3aQY%3D" H 18400 13950 50  0001 C CNN "URL"
 	1    18400 13950
 	1    0    0    -1  
 $EndComp
@@ -93,6 +103,8 @@ F 1 "USB3503A-1-GL-TR" H 7600 7760 60  0000 C CNN
 F 2 "MangOH-Red:BGA_25P_0200x0200_0040CC_0030PD" H 6700 9900 60  0001 R CNN
 F 3 "./datasheet/USB3503A-1-GL-TR.pdf" H 6550 9850 50  0001 C CNN
 F 4 "USB3503A-1-GL-TR" H 6550 9850 50  0001 C CNN "MPN"
+F 5 "2.55" H 6550 9850 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/USB3503A-1-GL-TR/USB3503A-1-GL-TRCT-ND/4162523" H 6550 9850 50  0001 C CNN "URL"
 	1    6550 9850
 	1    0    0    -1  
 $EndComp
@@ -105,6 +117,8 @@ F 1 "SX1509BIULTRT" H 3600 2684 60  0000 C CNN
 F 2 "MangOH-Red:QFN_28P_0400x0400_SLUG_0265x0265_0040CC" H 3200 2550 60  0001 L CNN
 F 3 "./datasheet/SX1509BIULTRT.pdf" H 3000 2500 50  0001 C CNN
 F 4 "SX1509BIULTRT" H 3000 2500 50  0001 C CNN "MPN"
+F 5 "2.55" H 3000 2500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/semtech-corporation/SX1509BIULTRT/SX1509BIULCT-ND/2295548" H 3000 2500 50  0001 C CNN "URL"
 	1    3000 2500
 	1    0    0    -1  
 $EndComp
@@ -141,6 +155,8 @@ F 1 "0" V 19534 13950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 19580 13950 50  0001 C CNN
 F 3 "~" H 19650 13950 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 19650 13950 50  0001 C CNN "MPN"
+F 5 "0.1" H 19650 13950 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 19650 13950 50  0001 C CNN "URL"
 	1    19650 13950
 	0    1    1    0   
 $EndComp
@@ -153,6 +169,8 @@ F 1 "10K" H 20020 14105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 19880 14150 50  0001 C CNN
 F 3 "~" H 19950 14150 50  0001 C CNN
 F 4 "MCR01MZPF1002" H 19950 14150 50  0001 C CNN "MPN"
+F 5 "0.1" H 19950 14150 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 19950 14150 50  0001 C CNN "URL"
 	1    19950 14150
 	1    0    0    -1  
 $EndComp
@@ -166,6 +184,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 19880 13700 50  0001 C CNN
 F 3 "~" H 19950 13700 50  0001 C CNN
 F 4 "DNI" H 20020 13609 50  0000 L CNB "DNI"
 F 5 "RK73Z1ETTP" H 19950 13700 50  0001 C CNN "MPN"
+F 6 "0.1" H 19950 13700 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 19950 13700 50  0001 C CNN "URL"
 	1    19950 13700
 	1    0    0    -1  
 $EndComp
@@ -178,6 +198,8 @@ F 1 "0" V 17634 13950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 17680 13950 50  0001 C CNN
 F 3 "~" H 17750 13950 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 17750 13950 50  0001 C CNN "MPN"
+F 5 "0.1" H 17750 13950 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 17750 13950 50  0001 C CNN "URL"
 	1    17750 13950
 	0    1    1    0   
 $EndComp
@@ -190,6 +212,8 @@ F 1 "100n" H 18165 14155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 18088 14050 50  0001 C CNN
 F 3 "~" H 18050 14200 50  0001 C CNN
 F 4 "GRM155R61A104KA01D" H 18050 14200 50  0001 C CNN "MPN"
+F 5 "0.1" H 18050 14200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 18050 14200 50  0001 C CNN "URL"
 	1    18050 14200
 	-1   0    0    -1  
 $EndComp
@@ -269,6 +293,8 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 17788 11350 50  0001 C CNN
 F 3 "~" H 17750 11500 50  0001 C CNN
 F 4 "DNI" H 17900 11350 50  0000 L CNB "DNI"
 F 5 "GRM155R61A104KA01D" H 17750 11500 50  0001 C CNN "MPN"
+F 6 "0.1" H 17750 11500 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 17750 11500 50  0001 C CNN "URL"
 	1    17750 11500
 	1    0    0    -1  
 $EndComp
@@ -281,6 +307,8 @@ F 1 "100n" H 17565 11455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 17488 11350 50  0001 C CNN
 F 3 "~" H 17450 11500 50  0001 C CNN
 F 4 "GRM155R61A104KA01D" H 17450 11500 50  0001 C CNN "MPN"
+F 5 "0.1" H 17450 11500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 17450 11500 50  0001 C CNN "URL"
 	1    17450 11500
 	-1   0    0    -1  
 $EndComp
@@ -294,6 +322,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 19680 11750 50  0001 C CNN
 F 3 "~" H 19750 11750 50  0001 C CNN
 F 4 "DNI" H 19750 11750 50  0001 L CNB "DNI"
 F 5 "MCR01MZPF1002" H 19750 11750 50  0001 C CNN "MPN"
+F 6 "0.1" H 19750 11750 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 19750 11750 50  0001 C CNN "URL"
 	1    19750 11750
 	-1   0    0    -1  
 $EndComp
@@ -307,6 +337,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 20030 11450 50  0001 C CNN
 F 3 "~" H 20100 11450 50  0001 C CNN
 F 4 "DNI" V 20200 11600 50  0000 L CNB "DNI"
 F 5 "MCR01MZPF1002" H 20100 11450 50  0001 C CNN "MPN"
+F 6 "0.1" H 20100 11450 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 20100 11450 50  0001 C CNN "URL"
 	1    20100 11450
 	0    1    1    0   
 $EndComp
@@ -455,6 +487,8 @@ F 1 "10k" H 18180 7355 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 18180 7400 50  0001 C CNN
 F 3 "~" H 18250 7400 50  0001 C CNN
 F 4 "MCR01MZPF1002" H 18250 7400 50  0001 C CNN "MPN"
+F 5 "0.1" H 18250 7400 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 18250 7400 50  0001 C CNN "URL"
 	1    18250 7400
 	-1   0    0    -1  
 $EndComp
@@ -468,6 +502,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 19630 6900 50  0001 C CNN
 F 3 "~" H 19700 6900 50  0001 C CNN
 F 4 "DNI" H 19630 6809 50  0000 R CNB "DNI"
 F 5 "RK73Z1ETTP" H 19700 6900 50  0001 C CNN "MPN"
+F 6 "0.1" H 19700 6900 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 19700 6900 50  0001 C CNN "URL"
 	1    19700 6900
 	-1   0    0    -1  
 $EndComp
@@ -481,6 +517,8 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 19938 7200 50  0001 C CNN
 F 3 "~" H 19900 7350 50  0001 C CNN
 F 4 "DNI" H 20050 7200 50  0000 L CNB "DNI"
 F 5 "GRM155R61A104KA01D" H 19900 7350 50  0001 C CNN "MPN"
+F 6 "0.1" H 19900 7350 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 19900 7350 50  0001 C CNN "URL"
 	1    19900 7350
 	-1   0    0    -1  
 $EndComp
@@ -494,6 +532,8 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 20238 7200 50  0001 C CNN
 F 3 "~" H 20200 7350 50  0001 C CNN
 F 4 "DNI" H 20350 7200 50  0000 L CNB "DNI"
 F 5 "GRM155R61A104KA01D" H 20200 7350 50  0001 C CNN "MPN"
+F 6 "0.1" H 20200 7350 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 20200 7350 50  0001 C CNN "URL"
 	1    20200 7350
 	1    0    0    -1  
 $EndComp
@@ -561,6 +601,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 19080 6900 50  0001 C CNN
 F 3 "~" H 19150 6900 50  0001 C CNN
 F 4 "DNI" H 19150 6900 50  0001 L CNB "DNI"
 F 5 "RK73Z1ETTP" H 19150 6900 50  0001 C CNN "MPN"
+F 6 "0.1" H 19150 6900 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 19150 6900 50  0001 C CNN "URL"
 	1    19150 6900
 	1    0    0    -1  
 $EndComp
@@ -574,6 +616,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 18380 6900 50  0001 C CNN
 F 3 "~" H 18450 6900 50  0001 C CNN
 F 4 "DNI" H 18380 6809 50  0000 R CNB "DNI"
 F 5 "MCR01MZPF1002" H 18450 6900 50  0001 C CNN "MPN"
+F 6 "0.1" H 18450 6900 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 18450 6900 50  0001 C CNN "URL"
 	1    18450 6900
 	-1   0    0    -1  
 $EndComp
@@ -596,6 +640,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 17830 6900 50  0001 C CNN
 F 3 "~" H 17900 6900 50  0001 C CNN
 F 4 "DNI" H 17830 6809 50  0000 R CNB "DNI"
 F 5 "MCR01MZPF1002" H 17900 6900 50  0001 C CNN "MPN"
+F 6 "0.1" H 17900 6900 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 17900 6900 50  0001 C CNN "URL"
 	1    17900 6900
 	-1   0    0    -1  
 $EndComp
@@ -616,6 +662,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 3180 14750 50  0001 C CNN
 F 3 "~" H 3250 14750 50  0001 C CNN
 F 4 "1%" H 0   0   50  0001 C CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 3250 14750 50  0001 C CNN "MPN"
+F 6 "0.1" H 3250 14750 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3250 14750 50  0001 C CNN "URL"
 	1    3250 14750
 	-1   0    0    1   
 $EndComp
@@ -628,6 +676,8 @@ F 1 "1u" H 5765 15355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5688 15250 50  0001 C CNN
 F 3 "~" H 5650 15400 50  0001 C CNN
 F 4 "GRM155R61A105KE15D" H 5650 15400 50  0001 C CNN "MPN"
+F 5 "0.11" H 5650 15400 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A105KE15D/490-3890-1-ND/965932" H 5650 15400 50  0001 C CNN "URL"
 	1    5650 15400
 	1    0    0    -1  
 $EndComp
@@ -662,6 +712,8 @@ F 1 "0" V 3850 15100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3580 15100 50  0001 C CNN
 F 3 "~" H 3650 15100 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 3650 15100 50  0001 C CNN "MPN"
+F 5 "0.1" H 3650 15100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 3650 15100 50  0001 C CNN "URL"
 	1    3650 15100
 	0    -1   1    0   
 $EndComp
@@ -717,6 +769,8 @@ F 1 "0" V 18250 8750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 8500 50  0001 C CNN
 F 3 "~" H 18200 8500 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 8500 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 8500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 8500 50  0001 C CNN "URL"
 	1    18200 8500
 	0    -1   -1   0   
 $EndComp
@@ -729,6 +783,8 @@ F 1 "0" V 18250 8650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 8400 50  0001 C CNN
 F 3 "~" H 18200 8400 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 8400 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 8400 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 8400 50  0001 C CNN "URL"
 	1    18200 8400
 	0    -1   -1   0   
 $EndComp
@@ -741,6 +797,8 @@ F 1 "0" V 18250 8950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 8700 50  0001 C CNN
 F 3 "~" H 18200 8700 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 8700 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 8700 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 8700 50  0001 C CNN "URL"
 	1    18200 8700
 	0    -1   -1   0   
 $EndComp
@@ -753,6 +811,8 @@ F 1 "0" V 18250 8850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 8600 50  0001 C CNN
 F 3 "~" H 18200 8600 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 8600 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 8600 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 8600 50  0001 C CNN "URL"
 	1    18200 8600
 	0    -1   -1   0   
 $EndComp
@@ -791,6 +851,8 @@ F 1 "0" V 18250 9350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 9100 50  0001 C CNN
 F 3 "~" H 18200 9100 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 9100 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 9100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 9100 50  0001 C CNN "URL"
 	1    18200 9100
 	0    -1   -1   0   
 $EndComp
@@ -803,6 +865,8 @@ F 1 "0" V 18250 9250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 9000 50  0001 C CNN
 F 3 "~" H 18200 9000 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 9000 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 9000 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 9000 50  0001 C CNN "URL"
 	1    18200 9000
 	0    -1   -1   0   
 $EndComp
@@ -815,6 +879,8 @@ F 1 "0" V 18250 9550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 9300 50  0001 C CNN
 F 3 "~" H 18200 9300 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 9300 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 9300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 9300 50  0001 C CNN "URL"
 	1    18200 9300
 	0    -1   -1   0   
 $EndComp
@@ -827,6 +893,8 @@ F 1 "0" V 18250 9450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18200 9200 50  0001 C CNN
 F 3 "~" H 18200 9200 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 18200 9200 50  0001 C CNN "MPN"
+F 5 "0.1" H 18200 9200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 18200 9200 50  0001 C CNN "URL"
 	1    18200 9200
 	0    -1   -1   0   
 $EndComp
@@ -873,6 +941,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 10380 3800 50  0001 C CNN
 F 3 "~" H 10450 3800 50  0001 C CNN
 F 4 "1%" H 10520 3709 50  0000 L CNB "Tolerance"
 F 5 "MCR01MZPF1002" H 10450 3800 50  0001 C CNN "MPN"
+F 6 "0.1" H 10450 3800 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 10450 3800 50  0001 C CNN "URL"
 	1    10450 3800
 	1    0    0    -1  
 $EndComp
@@ -886,6 +956,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 11080 3800 50  0001 C CNN
 F 3 "~" H 11150 3800 50  0001 C CNN
 F 4 "1%" H 11220 3709 50  0000 L CNB "Tolerance"
 F 5 "MCR01MZPF1002" H 11150 3800 50  0001 C CNN "MPN"
+F 6 "0.1" H 11150 3800 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 11150 3800 50  0001 C CNN "URL"
 	1    11150 3800
 	1    0    0    -1  
 $EndComp
@@ -899,6 +971,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 11680 3800 50  0001 C CNN
 F 3 "~" H 11750 3800 50  0001 C CNN
 F 4 "1%" H 11820 3709 50  0000 L CNB "Tolerance"
 F 5 "MCR01MZPF1002" H 11750 3800 50  0001 C CNN "MPN"
+F 6 "0.1" H 11750 3800 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 11750 3800 50  0001 C CNN "URL"
 	1    11750 3800
 	1    0    0    -1  
 $EndComp
@@ -913,6 +987,8 @@ F 3 "~" H 10450 3050 50  0001 C CNN
 F 4 "1%" H 10520 3005 50  0000 L CNB "Tolerance"
 F 5 "DNI" H 10520 2914 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 10450 3050 50  0001 C CNN "MPN"
+F 7 "0.1" H 10450 3050 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 10450 3050 50  0001 C CNN "URL"
 	1    10450 3050
 	1    0    0    -1  
 $EndComp
@@ -927,6 +1003,8 @@ F 3 "~" H 11150 3050 50  0001 C CNN
 F 4 "1%" H 11220 3005 50  0000 L CNB "Tolerance"
 F 5 "DNI" H 11220 2914 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 11150 3050 50  0001 C CNN "MPN"
+F 7 "0.1" H 11150 3050 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 11150 3050 50  0001 C CNN "URL"
 	1    11150 3050
 	1    0    0    -1  
 $EndComp
@@ -941,6 +1019,8 @@ F 3 "~" H 11750 3050 50  0001 C CNN
 F 4 "1%" H 11820 3005 50  0000 L CNB "Tolerance"
 F 5 "DNI" H 11820 2914 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 11750 3050 50  0001 C CNN "MPN"
+F 7 "0.1" H 11750 3050 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 11750 3050 50  0001 C CNN "URL"
 	1    11750 3050
 	1    0    0    -1  
 $EndComp
@@ -1115,6 +1195,8 @@ F 1 "100n" V 16050 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 16338 1500 50  0001 C CNN
 F 3 "~" H 16300 1650 50  0001 C CNN
 F 4 "GRM155R61A104KA01D" H 16300 1650 50  0001 C CNN "MPN"
+F 5 "0.1" H 16300 1650 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A104KA01D/490-1318-1-ND/587923" H 16300 1650 50  0001 C CNN "URL"
 	1    16300 1650
 	0    1    -1   0   
 $EndComp
@@ -1127,6 +1209,8 @@ F 1 "4.7u" V 16050 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 16338 1950 50  0001 C CNN
 F 3 "~" H 16300 2100 50  0001 C CNN
 F 4 "GRM155R60J475ME47D" H 16300 2100 50  0001 C CNN "MPN"
+F 5 "0.15" H 16300 2100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" H 16300 2100 50  0001 C CNN "URL"
 	1    16300 2100
 	0    1    -1   0   
 $EndComp
@@ -1165,6 +1249,8 @@ F 3 "~" H 15100 3050 50  0001 C CNN
 F 4 "1%" H 15031 3095 50  0000 R CNN "Tolerance"
 F 5 "DNI" H 15031 3186 50  0000 R CNB "DNI"
 F 6 "MCR01MZPF1002" H 15100 3050 50  0001 C CNN "MPN"
+F 7 "0.1" H 15100 3050 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 15100 3050 50  0001 C CNN "URL"
 	1    15100 3050
 	1    0    0    1   
 $EndComp
@@ -1228,6 +1314,8 @@ F 3 "~" H 15100 3650 50  0001 C CNN
 F 4 "1%" H 15031 3695 50  0000 R CNN "Tolerance"
 F 5 "DNI" H 15031 3786 50  0000 R CNB "DNI"
 F 6 "MCR01MZPF1002" H 15100 3650 50  0001 C CNN "MPN"
+F 7 "0.1" H 15100 3650 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 15100 3650 50  0001 C CNN "URL"
 	1    15100 3650
 	1    0    0    1   
 $EndComp
@@ -1310,6 +1398,8 @@ F 1 "100n" H 2536 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2688 3850 50  0001 C CNN
 F 3 "~" H 2650 4000 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 2650 4000 50  0001 C CNN "MPN"
+F 5 "0.1" H 2650 4000 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 2650 4000 50  0001 C CNN "URL"
 	1    2650 4000
 	1    0    0    1   
 $EndComp
@@ -1355,6 +1445,8 @@ F 1 "100n" H 4715 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 4500 50  0001 C CNN
 F 3 "~" H 4600 4650 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 4600 4650 50  0001 C CNN "MPN"
+F 5 "0.1" H 4600 4650 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 4600 4650 50  0001 C CNN "URL"
 	1    4600 4650
 	1    0    0    -1  
 $EndComp
@@ -1448,6 +1540,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 3780 5200 50  0001 C CNN
 F 3 "~" H 3850 5200 50  0001 C CNN
 F 4 "1%" H 3850 5200 50  0001 C CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 3850 5200 50  0001 C CNN "MPN"
+F 6 "0.1" H 3850 5200 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3850 5200 50  0001 C CNN "URL"
 	1    3850 5200
 	0    1    1    0   
 $EndComp
@@ -1479,6 +1573,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 3100 50  0001 C CNN
 F 3 "~" H 5950 3100 50  0001 C CNN
 F 4 "1%" H 5950 3100 50  0001 C CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 5950 3100 50  0001 C CNN "MPN"
+F 6 "0.1" H 5950 3100 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 5950 3100 50  0001 C CNN "URL"
 	1    5950 3100
 	0    1    1    0   
 $EndComp
@@ -1493,6 +1589,8 @@ F 3 "~" H 5950 3200 50  0001 C CNN
 F 4 "1%" H 5950 3200 50  0001 C CNN "Tolerance"
 F 5 "DNI" V 5900 3650 50  0000 C CNB "DNI"
 F 6 "RK73Z1ETTP" H 5950 3200 50  0001 C CNN "MPN"
+F 7 "0.1" H 5950 3200 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 5950 3200 50  0001 C CNN "URL"
 	1    5950 3200
 	0    1    1    0   
 $EndComp
@@ -1520,6 +1618,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 3700 50  0001 C CNN
 F 3 "~" H 5950 3700 50  0001 C CNN
 F 4 "1%" H 5950 3700 50  0001 C CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 5950 3700 50  0001 C CNN "MPN"
+F 6 "0.1" H 5950 3700 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 5950 3700 50  0001 C CNN "URL"
 	1    5950 3700
 	0    1    1    0   
 $EndComp
@@ -1539,6 +1639,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 3600 50  0001 C CNN
 F 3 "~" H 5950 3600 50  0001 C CNN
 F 4 "1%" H 5950 3600 50  0001 C CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 5950 3600 50  0001 C CNN "MPN"
+F 6 "0.1" H 5950 3600 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 5950 3600 50  0001 C CNN "URL"
 	1    5950 3600
 	0    1    1    0   
 $EndComp
@@ -1552,6 +1654,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 3500 50  0001 C CNN
 F 3 "~" H 5950 3500 50  0001 C CNN
 F 4 "1%" H 5950 3500 50  0001 C CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 5950 3500 50  0001 C CNN "MPN"
+F 6 "0.1" H 5950 3500 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 5950 3500 50  0001 C CNN "URL"
 	1    5950 3500
 	0    1    1    0   
 $EndComp
@@ -1769,6 +1873,8 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4088 8950 50  0001 C CNN
 F 3 "~" H 4050 9100 50  0001 C CNN
 F 4 "DNI" H 3936 9191 50  0000 R CNB "DNI"
 F 5 "NMC0402X7R104K16TRPF" H 4050 9100 50  0001 C CNN "MPN"
+F 6 "0.1" H 4050 9100 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 4050 9100 50  0001 C CNN "URL"
 	1    4050 9100
 	1    0    0    1   
 $EndComp
@@ -1822,6 +1928,8 @@ F 1 "4.7u" H 7986 8495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8138 8300 50  0001 C CNN
 F 3 "~" H 8100 8450 50  0001 C CNN
 F 4 "GRM155R60J475ME47D" H 8100 8450 50  0001 C CNN "MPN"
+F 5 "0.15" H 8100 8450 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" H 8100 8450 50  0001 C CNN "URL"
 	1    8100 8450
 	1    0    0    1   
 $EndComp
@@ -1836,6 +1944,8 @@ F 1 "100n" H 8465 8405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8388 8300 50  0001 C CNN
 F 3 "~" H 8350 8450 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 8350 8450 50  0001 C CNN "MPN"
+F 5 "0.1" H 8350 8450 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 8350 8450 50  0001 C CNN "URL"
 	1    8350 8450
 	1    0    0    -1  
 $EndComp
@@ -1879,6 +1989,8 @@ F 1 "100n" H 6786 8495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6938 8300 50  0001 C CNN
 F 3 "~" H 6900 8450 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 6900 8450 50  0001 C CNN "MPN"
+F 5 "0.1" H 6900 8450 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 6900 8450 50  0001 C CNN "URL"
 	1    6900 8450
 	1    0    0    1   
 $EndComp
@@ -1891,6 +2003,8 @@ F 1 "4.7u" H 7265 8405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7188 8300 50  0001 C CNN
 F 3 "~" H 7150 8450 50  0001 C CNN
 F 4 "GRM155R60J475ME47D" H 7150 8450 50  0001 C CNN "MPN"
+F 5 "0.15" H 7150 8450 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" H 7150 8450 50  0001 C CNN "URL"
 	1    7150 8450
 	1    0    0    -1  
 $EndComp
@@ -1989,6 +2103,8 @@ F 1 "4.7u" H 9715 11805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9638 11700 50  0001 C CNN
 F 3 "~" H 9600 11850 50  0001 C CNN
 F 4 "GRM155R60J475ME47D" H 9600 11850 50  0001 C CNN "MPN"
+F 5 "0.15" H 9600 11850 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" H 9600 11850 50  0001 C CNN "URL"
 	1    9600 11850
 	1    0    0    -1  
 $EndComp
@@ -2014,6 +2130,8 @@ F 1 "4.7u" H 10115 11805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10038 11700 50  0001 C CNN
 F 3 "~" H 10000 11850 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 10000 11850 50  0001 C CNN "MPN"
+F 5 "0.1" H 10000 11850 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 10000 11850 50  0001 C CNN "URL"
 	1    10000 11850
 	1    0    0    -1  
 $EndComp
@@ -2039,6 +2157,8 @@ F 1 "4.7u" H 10615 11455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10538 11350 50  0001 C CNN
 F 3 "~" H 10500 11500 50  0001 C CNN
 F 4 "GRM155R60J475ME47D" H 10500 11500 50  0001 C CNN "MPN"
+F 5 "0.15" H 10500 11500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" H 10500 11500 50  0001 C CNN "URL"
 	1    10500 11500
 	1    0    0    -1  
 $EndComp
@@ -2108,6 +2228,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 9030 11900 50  0001 C CNN
 F 3 "~" H 9100 11900 50  0001 C CNN
 F 4 "1%" H 9170 11809 50  0000 L CNN "Tolerance"
 F 5 "RK73H1ETTP1202F" H 9100 11900 50  0001 C CNN "MPN"
+F 6 "0.1" H 9100 11900 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H1ETTP1202F/2019-RK73H1ETTP1202FCT-ND/9846150" H 9100 11900 50  0001 C CNN "URL"
 	1    9100 11900
 	1    0    0    -1  
 $EndComp
@@ -2168,6 +2290,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 10400 50  0001 C CNN
 F 3 "~" H 3300 10400 50  0001 C CNN
 F 4 "1%" H 3370 10309 50  0000 L CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 3300 10400 50  0001 C CNN "MPN"
+F 6 "0.1" H 3300 10400 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3300 10400 50  0001 C CNN "URL"
 	1    3300 10400
 	1    0    0    -1  
 $EndComp
@@ -2197,6 +2321,8 @@ F 3 "~" H 3300 11450 50  0001 C CNN
 F 4 "1%" H 3370 11405 50  0000 L CNN "Tolerance"
 F 5 "DNI" H 3370 11314 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 3300 11450 50  0001 C CNN "MPN"
+F 7 "0.1" H 3300 11450 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3300 11450 50  0001 C CNN "URL"
 	1    3300 11450
 	1    0    0    -1  
 $EndComp
@@ -2210,6 +2336,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 11450 50  0001 C CNN
 F 3 "~" H 3750 11450 50  0001 C CNN
 F 4 "1%" H 3820 11359 50  0000 L CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 3750 11450 50  0001 C CNN "MPN"
+F 6 "0.1" H 3750 11450 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3750 11450 50  0001 C CNN "URL"
 	1    3750 11450
 	1    0    0    -1  
 $EndComp
@@ -2239,6 +2367,8 @@ F 3 "~" H 3750 10400 50  0001 C CNN
 F 4 "1%" H 3820 10355 50  0000 L CNN "Tolerance"
 F 5 "DNI" H 3820 10264 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 3750 10400 50  0001 C CNN "MPN"
+F 7 "0.1" H 3750 10400 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 3750 10400 50  0001 C CNN "URL"
 	1    3750 10400
 	1    0    0    -1  
 $EndComp
@@ -2252,6 +2382,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 10400 50  0001 C CNN
 F 3 "~" H 4150 10400 50  0001 C CNN
 F 4 "1%" H 4220 10309 50  0000 L CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 4150 10400 50  0001 C CNN "MPN"
+F 6 "0.1" H 4150 10400 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 4150 10400 50  0001 C CNN "URL"
 	1    4150 10400
 	1    0    0    -1  
 $EndComp
@@ -2281,6 +2413,8 @@ F 3 "~" H 4150 11450 50  0001 C CNN
 F 4 "1%" H 4220 11405 50  0000 L CNN "Tolerance"
 F 5 "DNI" H 4220 11314 50  0000 L CNB "DNI"
 F 6 "MCR01MZPF1002" H 4150 11450 50  0001 C CNN "MPN"
+F 7 "0.1" H 4150 11450 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 4150 11450 50  0001 C CNN "URL"
 	1    4150 11450
 	1    0    0    -1  
 $EndComp
@@ -2294,6 +2428,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 10400 50  0001 C CNN
 F 3 "~" H 4500 10400 50  0001 C CNN
 F 4 "1%" H 4570 10309 50  0000 L CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 4500 10400 50  0001 C CNN "MPN"
+F 6 "0.1" H 4500 10400 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 4500 10400 50  0001 C CNN "URL"
 	1    4500 10400
 	1    0    0    -1  
 $EndComp
@@ -2307,6 +2443,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 4830 10400 50  0001 C CNN
 F 3 "~" H 4900 10400 50  0001 C CNN
 F 4 "1%" H 4970 10309 50  0000 L CNN "Tolerance"
 F 5 "MCR01MZPF1002" H 4900 10400 50  0001 C CNN "MPN"
+F 6 "0.1" H 4900 10400 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPF1002/RHM10.0KLCT-ND/628065" H 4900 10400 50  0001 C CNN "URL"
 	1    4900 10400
 	1    0    0    -1  
 $EndComp
@@ -2379,6 +2517,8 @@ F 1 "47k" H 18450 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 18330 2250 50  0001 C CNN
 F 3 "~" H 18400 2250 50  0001 C CNN
 F 4 "MCR01MZPJ473" H 18400 2250 50  0001 C CNN "MPN"
+F 5 "0.1" H 18400 2250 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPJ473/RHM47KJCT-ND/628298" H 18400 2250 50  0001 C CNN "URL"
 	1    18400 2250
 	1    0    0    -1  
 $EndComp
@@ -2416,6 +2556,8 @@ F 1 "33" V 18000 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 17930 2950 50  0001 C CNN
 F 3 "~" H 18000 2950 50  0001 C CNN
 F 4 "RK73B1ETTP330J" H 18000 2950 50  0001 C CNN "MPN"
+F 5 "0.1" H 18000 2950 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73B1ETTP330J/2019-RK73B1ETTP330JCT-ND/9846009" H 18000 2950 50  0001 C CNN "URL"
 	1    18000 2950
 	0    1    1    0   
 $EndComp
@@ -2428,6 +2570,8 @@ F 1 "33" V 18000 3000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 17930 3050 50  0001 C CNN
 F 3 "~" H 18000 3050 50  0001 C CNN
 F 4 "RK73B1ETTP330J" H 18000 3050 50  0001 C CNN "MPN"
+F 5 "0.1" H 18000 3050 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73B1ETTP330J/2019-RK73B1ETTP330JCT-ND/9846009" H 18000 3050 50  0001 C CNN "URL"
 	1    18000 3050
 	0    1    1    0   
 $EndComp
@@ -2440,6 +2584,8 @@ F 1 "47k" H 18850 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 18730 2250 50  0001 C CNN
 F 3 "~" H 18800 2250 50  0001 C CNN
 F 4 "MCR01MZPJ473" H 18800 2250 50  0001 C CNN "MPN"
+F 5 "0.1" H 18800 2250 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPJ473/RHM47KJCT-ND/628298" H 18800 2250 50  0001 C CNN "URL"
 	1    18800 2250
 	1    0    0    -1  
 $EndComp
@@ -2495,6 +2641,8 @@ F 3 "~" H 18000 3550 50  0001 C CNN
 F 4 "1%" V 18050 3750 50  0000 C CNN "Tolerance"
 F 5 "DNI" V 18100 3550 50  0000 C CNB "DNI"
 F 6 "ERA-2AEB103X" H 18000 3550 50  0001 C CNN "MPN"
+F 7 "0.45" H 18000 3550 50  0001 C CNN "Price"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB103X/P10KDCCT-ND/1706207" H 18000 3550 50  0001 C CNN "URL"
 	1    18000 3550
 	0    1    1    0   
 $EndComp

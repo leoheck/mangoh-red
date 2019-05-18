@@ -29,6 +29,8 @@ F 1 "TS3A5018RSVR" H 14200 6684 60  0000 C CNN
 F 2 "MangOH-Red:QFN_16P_0260x0180_0040CC" H 13700 6500 50  0001 C CNN
 F 3 "./datasheet/TS3A5018RSVR.pdf" H 13700 6500 50  0001 C CNN
 F 4 "TS3A5018RSVR" H 13700 6500 50  0001 C CNN "MPN"
+F 5 "0.81" H 13700 6500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TS3A5018RSVR/296-27552-1-ND/2331611" H 13700 6500 50  0001 C CNN "URL"
 	1    13700 6500
 	1    0    0    -1  
 $EndComp
@@ -144,6 +146,8 @@ F 1 "10k" H 12420 7455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 12280 7500 50  0001 C CNN
 F 3 "~" H 12350 7500 50  0001 C CNN
 F 4 "MCR01MZPJ103" H 12350 7500 50  0001 C CNN "MPN"
+F 5 "0.1" H 12350 7500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPJ103/RHM10KJCT-ND/628226" H 12350 7500 50  0001 C CNN "URL"
 	1    12350 7500
 	1    0    0    -1  
 $EndComp
@@ -159,6 +163,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 12280 6150 50  0001 C CNN
 F 3 "~" H 12350 6150 50  0001 C CNN
 F 4 "DNI" H 12420 6059 50  0000 L CNB "DNI"
 F 5 "MCR01MZPJ103" H 12350 6150 50  0001 C CNN "MPN"
+F 6 "0.1" H 12350 6150 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPJ103/RHM10KJCT-ND/628226" H 12350 6150 50  0001 C CNN "URL"
 	1    12350 6150
 	1    0    0    -1  
 $EndComp
@@ -173,6 +179,8 @@ F 1 "10k" H 12920 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 12780 6150 50  0001 C CNN
 F 3 "~" H 12850 6150 50  0001 C CNN
 F 4 "MCR01MZPJ103" H 12850 6150 50  0001 C CNN "MPN"
+F 5 "0.1" H 12850 6150 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/MCR01MZPJ103/RHM10KJCT-ND/628226" H 12850 6150 50  0001 C CNN "URL"
 	1    12850 6150
 	1    0    0    -1  
 $EndComp
@@ -202,6 +210,8 @@ F 1 "100n" H 13236 7545 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 13388 7350 50  0001 C CNN
 F 3 "~" H 13350 7500 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 13350 7500 50  0001 C CNN "MPN"
+F 5 "0.1" H 13350 7500 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 13350 7500 50  0001 C CNN "URL"
 	1    13350 7500
 	1    0    0    1   
 $EndComp
@@ -256,6 +266,8 @@ F 1 "4.7u" H 7486 9195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7638 9000 50  0001 C CNN
 F 3 "~" H 7600 9150 50  0001 C CNN
 F 4 "ECJ-0EB0J475M" H 7600 9150 50  0001 C CNN "MPN"
+F 5 "0.26" H 7600 9150 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECJ-0EB0J475M/PCC2475CT-ND/1833127" H 7600 9150 50  0001 C CNN "URL"
 	1    7600 9150
 	1    0    0    1   
 $EndComp
@@ -279,6 +291,8 @@ F 1 "2.2u" H 7735 9195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 9000 50  0001 C CNN
 F 3 "~" H 7850 9150 50  0001 C CNN
 F 4 "CE JMK107BJ225KA-T" H 7850 9150 50  0001 C CNN "MPN"
+F 5 "0.14" H 7850 9150 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK107BJ225KA-T/587-1254-1-ND/931031" H 7850 9150 50  0001 C CNN "URL"
 	1    7850 9150
 	-1   0    0    1   
 $EndComp
@@ -306,6 +320,8 @@ F 1 "100n" H 8686 8145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8838 7950 50  0001 C CNN
 F 3 "~" H 8800 8100 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 8800 8100 50  0001 C CNN "MPN"
+F 5 "0.1" H 8800 8100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 8800 8100 50  0001 C CNN "URL"
 	1    8800 8100
 	1    0    0    1   
 $EndComp
@@ -329,6 +345,8 @@ F 1 "4.7u" H 8935 8145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9088 7950 50  0001 C CNN
 F 3 "~" H 9050 8100 50  0001 C CNN
 F 4 "ECJ-0EB0J475M" H 9050 8100 50  0001 C CNN "MPN"
+F 5 "0.26" H 9050 8100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECJ-0EB0J475M/PCC2475CT-ND/1833127" H 9050 8100 50  0001 C CNN "URL"
 	1    9050 8100
 	-1   0    0    1   
 $EndComp
@@ -363,6 +381,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 8980 7300 50  0001 C CNN
 F 3 "~" H 9050 7300 50  0001 C CNN
 F 4 "5%" H 9120 7209 50  0000 L CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 9050 7300 50  0001 C CNN "MPN"
+F 6 "0.1" H 9050 7300 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 9050 7300 50  0001 C CNN "URL"
 	1    9050 7300
 	1    0    0    -1  
 $EndComp
@@ -381,6 +401,8 @@ F 1 "4.7u" H 8236 7345 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8388 7150 50  0001 C CNN
 F 3 "~" H 8350 7300 50  0001 C CNN
 F 4 "ECJ-0EB0J475M" H 8350 7300 50  0001 C CNN "MPN"
+F 5 "0.26" H 8350 7300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECJ-0EB0J475M/PCC2475CT-ND/1833127" H 8350 7300 50  0001 C CNN "URL"
 	1    8350 7300
 	1    0    0    1   
 $EndComp
@@ -404,6 +426,8 @@ F 1 "100n" H 8485 7345 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 7150 50  0001 C CNN
 F 3 "~" H 8600 7300 50  0001 C CNN
 F 4 "NMC0402X7R104K16TRPF" H 8600 7300 50  0001 C CNN "MPN"
+F 5 "0.1" H 8600 7300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88D/490-3261-1-ND/702802" H 8600 7300 50  0001 C CNN "URL"
 	1    8600 7300
 	-1   0    0    1   
 $EndComp
@@ -456,6 +480,8 @@ F 1 "0" H 9009 6845 50  0000 R CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9050 6800 50  0001 C CNN
 F 3 "~" H 9050 6800 50  0001 C CNN
 F 4 "MPZ1608S221AT" H 9050 6800 50  0001 C CNN "MPN"
+F 5 "0.1" H 9050 6800 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/MPZ1608S221ATA00/445-1565-1-ND/571895" H 9050 6800 50  0001 C CNN "URL"
 	1    9050 6800
 	-1   0    0    1   
 $EndComp
@@ -486,6 +512,8 @@ F 1 "4.7u" H 7435 7345 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7588 7150 50  0001 C CNN
 F 3 "~" H 7550 7300 50  0001 C CNN
 F 4 "ECJ-0EB0J475M" H 7550 7300 50  0001 C CNN "MPN"
+F 5 "0.26" H 7550 7300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECJ-0EB0J475M/PCC2475CT-ND/1833127" H 7550 7300 50  0001 C CNN "URL"
 	1    7550 7300
 	-1   0    0    1   
 $EndComp
@@ -547,6 +575,8 @@ F 1 "4.7u" H 4486 7095 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 6900 50  0001 C CNN
 F 3 "~" H 4600 7050 50  0001 C CNN
 F 4 "ECJ-0EB0J475M" H 4600 7050 50  0001 C CNN "MPN"
+F 5 "0.26" H 4600 7050 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECJ-0EB0J475M/PCC2475CT-ND/1833127" H 4600 7050 50  0001 C CNN "URL"
 	1    4600 7050
 	1    0    0    1   
 $EndComp
@@ -603,6 +633,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 9250 50  0001 C CNN
 F 3 "~" H 5150 9250 50  0001 C CNN
 F 4 "1%" H 5250 9100 50  0000 C CNN "Tolerance"
 F 5 "RK73H1ETTP2002F" H 5150 9250 50  0001 C CNN "MPN"
+F 6 "0.1" H 5150 9250 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H1ETTP2002F/2019-RK73H1ETTP2002FCT-ND/9846206" H 5150 9250 50  0001 C CNN "URL"
 	1    5150 9250
 	1    0    0    -1  
 $EndComp
@@ -626,6 +658,8 @@ F 1 "0" V 4500 7650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 7650 50  0001 C CNN
 F 3 "~" H 4500 7650 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 4500 7650 50  0001 C CNN "MPN"
+F 5 "0.1" H 4500 7650 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 4500 7650 50  0001 C CNN "URL"
 	1    4500 7650
 	0    1    1    0   
 $EndComp
@@ -638,6 +672,8 @@ F 1 "0" V 4500 7750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 7750 50  0001 C CNN
 F 3 "~" H 4500 7750 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 4500 7750 50  0001 C CNN "MPN"
+F 5 "0.1" H 4500 7750 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 4500 7750 50  0001 C CNN "URL"
 	1    4500 7750
 	0    1    1    0   
 $EndComp
@@ -668,6 +704,8 @@ F 1 "1u" V 2739 8750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 8600 50  0001 C CNN
 F 3 "~" H 2900 8750 50  0001 C CNN
 F 4 "GRM155R61A105KE15D" H 2900 8750 50  0001 C CNN "MPN"
+F 5 "0.11" H 2900 8750 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A105KE15D/490-3890-1-ND/965932" H 2900 8750 50  0001 C CNN "URL"
 	1    2900 8750
 	0    -1   1    0   
 $EndComp
@@ -702,6 +740,8 @@ F 1 "1u" V 2739 7800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 7650 50  0001 C CNN
 F 3 "~" H 2900 7800 50  0001 C CNN
 F 4 "GRM155R61A105KE15D" H 2900 7800 50  0001 C CNN "MPN"
+F 5 "0.11" H 2900 7800 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A105KE15D/490-3890-1-ND/965932" H 2900 7800 50  0001 C CNN "URL"
 	1    2900 7800
 	0    -1   1    0   
 $EndComp
@@ -715,6 +755,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 9150 50  0001 C CNN
 F 3 "~" H 2350 9150 50  0001 C CNN
 F 4 "1%" V 2650 9150 50  0000 C CNN "Tolerance"
 F 5 "RK73H1ETTP2201F" H 2350 9150 50  0001 C CNN "MPN"
+F 6 "0.1" H 2350 9150 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H1ETTP2201F/2019-RK73H1ETTP2201FCT-ND/9846130" H 2350 9150 50  0001 C CNN "URL"
 	1    2350 9150
 	0    1    -1   0   
 $EndComp
@@ -743,6 +785,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 2330 7950 50  0001 C CNN
 F 3 "~" H 2400 7950 50  0001 C CNN
 F 4 "1%" V 2700 7950 50  0000 C CNN "Tolerance"
 F 5 "RK73Z1ETTP" H 2400 7950 50  0001 C CNN "MPN"
+F 6 "0.1" H 2400 7950 50  0001 C CNN "Price"
+F 7 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 2400 7950 50  0001 C CNN "URL"
 	1    2400 7950
 	0    1    1    0   
 $EndComp
@@ -793,6 +837,8 @@ F 1 "100p" H 5686 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 5050 50  0001 C CNN
 F 3 "~" H 5800 5200 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 5800 5200 50  0001 C CNN "MPN"
+F 5 "0.1" H 5800 5200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 5800 5200 50  0001 C CNN "URL"
 	1    5800 5200
 	1    0    0    1   
 $EndComp
@@ -816,6 +862,8 @@ F 1 "100p" H 5935 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6088 5050 50  0001 C CNN
 F 3 "~" H 6050 5200 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 6050 5200 50  0001 C CNN "MPN"
+F 5 "0.1" H 6050 5200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 6050 5200 50  0001 C CNN "URL"
 	1    6050 5200
 	-1   0    0    1   
 $EndComp
@@ -839,6 +887,8 @@ F 1 "22p" H 6786 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6938 5050 50  0001 C CNN
 F 3 "~" H 6900 5200 50  0001 C CNN
 F 4 "GRM1555C1H220JA01D" H 6900 5200 50  0001 C CNN "MPN"
+F 5 "0.1" H 6900 5200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H220JA01D/490-5868-1-ND/3175200" H 6900 5200 50  0001 C CNN "URL"
 	1    6900 5200
 	1    0    0    1   
 $EndComp
@@ -862,6 +912,8 @@ F 1 "22p" H 7035 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7188 5050 50  0001 C CNN
 F 3 "~" H 7150 5200 50  0001 C CNN
 F 4 "GRM1555C1H220JA01D" H 7150 5200 50  0001 C CNN "MPN"
+F 5 "0.1" H 7150 5200 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H220JA01D/490-5868-1-ND/3175200" H 7150 5200 50  0001 C CNN "URL"
 	1    7150 5200
 	-1   0    0    1   
 $EndComp
@@ -893,6 +945,8 @@ F 1 "22n" V 6599 4700 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 6500 4700 50  0001 C CNN
 F 3 "~" H 6500 4700 50  0001 C CNN
 F 4 "LG HK 1005 22NJ-T" H 6500 4700 50  0001 C CNN "MPN"
+F 5 "0.01" H 6500 4700 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/HK100522NJ-TV/587-3999-2-ND/5034978" H 6500 4700 50  0001 C CNN "URL"
 	1    6500 4700
 	0    -1   -1   0   
 $EndComp
@@ -905,6 +959,8 @@ F 1 "22n" V 6599 5000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 6500 5000 50  0001 C CNN
 F 3 "~" H 6500 5000 50  0001 C CNN
 F 4 "LG HK 1005 22NJ-T" H 6500 5000 50  0001 C CNN "MPN"
+F 5 "0.01" H 6500 5000 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/HK100522NJ-TV/587-3999-2-ND/5034978" H 6500 5000 50  0001 C CNN "URL"
 	1    6500 5000
 	0    -1   -1   0   
 $EndComp
@@ -939,6 +995,8 @@ F 1 "100p" H 3836 3145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3988 2950 50  0001 C CNN
 F 3 "~" H 3950 3100 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 3950 3100 50  0001 C CNN "MPN"
+F 5 "0.1" H 3950 3100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 3950 3100 50  0001 C CNN "URL"
 	1    3950 3100
 	1    0    0    1   
 $EndComp
@@ -962,6 +1020,8 @@ F 1 "100p" H 4085 3145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4238 2950 50  0001 C CNN
 F 3 "~" H 4200 3100 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 4200 3100 50  0001 C CNN "MPN"
+F 5 "0.1" H 4200 3100 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 4200 3100 50  0001 C CNN "URL"
 	1    4200 3100
 	-1   0    0    1   
 $EndComp
@@ -985,6 +1045,8 @@ F 1 "0" V 3649 2600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 3550 2600 50  0001 C CNN
 F 3 "~" H 3550 2600 50  0001 C CNN
 F 4 "BK1005HS601-T" H 3550 2600 50  0001 C CNN "MPN"
+F 5 "0.1" H 3550 2600 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 3550 2600 50  0001 C CNN "URL"
 	1    3550 2600
 	0    -1   -1   0   
 $EndComp
@@ -997,6 +1059,8 @@ F 1 "0" V 3649 2900 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 3550 2900 50  0001 C CNN
 F 3 "~" H 3550 2900 50  0001 C CNN
 F 4 "BK1005HS601-T" H 3550 2900 50  0001 C CNN "MPN"
+F 5 "0.1" H 3550 2900 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 3550 2900 50  0001 C CNN "URL"
 	1    3550 2900
 	0    -1   -1   0   
 $EndComp
@@ -1021,6 +1085,8 @@ F 1 "100p" H 2986 2795 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 2600 50  0001 C CNN
 F 3 "~" H 3100 2750 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 3100 2750 50  0001 C CNN "MPN"
+F 5 "0.1" H 3100 2750 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 3100 2750 50  0001 C CNN "URL"
 	1    3100 2750
 	1    0    0    1   
 $EndComp
@@ -1039,6 +1105,8 @@ F 1 "100p" H 6635 2845 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6788 2650 50  0001 C CNN
 F 3 "~" H 6750 2800 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 6750 2800 50  0001 C CNN "MPN"
+F 5 "0.1" H 6750 2800 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 6750 2800 50  0001 C CNN "URL"
 	1    6750 2800
 	-1   0    0    1   
 $EndComp
@@ -1062,6 +1130,8 @@ F 1 "0" V 5949 2300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 5850 2300 50  0001 C CNN
 F 3 "~" H 5850 2300 50  0001 C CNN
 F 4 "BK1005HS601-T" H 5850 2300 50  0001 C CNN "MPN"
+F 5 "0.1" H 5850 2300 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 5850 2300 50  0001 C CNN "URL"
 	1    5850 2300
 	0    -1   -1   0   
 $EndComp
@@ -1074,6 +1144,8 @@ F 1 "0" V 5949 2600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 5850 2600 50  0001 C CNN
 F 3 "~" H 5850 2600 50  0001 C CNN
 F 4 "BK1005HS601-T" H 5850 2600 50  0001 C CNN "MPN"
+F 5 "0.1" H 5850 2600 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 5850 2600 50  0001 C CNN "URL"
 	1    5850 2600
 	0    -1   -1   0   
 $EndComp
@@ -1101,6 +1173,8 @@ F 1 "0" V 5949 3150 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 5850 3150 50  0001 C CNN
 F 3 "~" H 5850 3150 50  0001 C CNN
 F 4 "BK1005HS601-T" H 5850 3150 50  0001 C CNN "MPN"
+F 5 "0.1" H 5850 3150 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 5850 3150 50  0001 C CNN "URL"
 	1    5850 3150
 	0    -1   -1   0   
 $EndComp
@@ -1113,6 +1187,8 @@ F 1 "0" V 5949 3450 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 5850 3450 50  0001 C CNN
 F 3 "~" H 5850 3450 50  0001 C CNN
 F 4 "BK1005HS601-T" H 5850 3450 50  0001 C CNN "MPN"
+F 5 "0.1" H 5850 3450 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/taiyo-yuden/BK1005HS601-T/587-1846-1-ND/1465316" H 5850 3450 50  0001 C CNN "URL"
 	1    5850 3450
 	0    -1   -1   0   
 $EndComp
@@ -1144,6 +1220,8 @@ F 1 "0" H 6820 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6680 3650 50  0001 C CNN
 F 3 "~" H 6750 3650 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 6750 3650 50  0001 C CNN "MPN"
+F 5 "0.1" H 6750 3650 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 6750 3650 50  0001 C CNN "URL"
 	1    6750 3650
 	1    0    0    -1  
 $EndComp
@@ -1169,6 +1247,8 @@ F 1 "0" H 7270 2755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 2800 50  0001 C CNN
 F 3 "~" H 7200 2800 50  0001 C CNN
 F 4 "RK73Z1ETTP" H 7200 2800 50  0001 C CNN "MPN"
+F 5 "0.1" H 7200 2800 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1ETTP/2019-RK73Z1ETTPCT-ND/9846740" H 7200 2800 50  0001 C CNN "URL"
 	1    7200 2800
 	1    0    0    -1  
 $EndComp
@@ -1184,6 +1264,8 @@ F 1 "100p" H 7085 3695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 3500 50  0001 C CNN
 F 3 "~" H 7200 3650 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 7200 3650 50  0001 C CNN "MPN"
+F 5 "0.1" H 7200 3650 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 7200 3650 50  0001 C CNN "URL"
 	1    7200 3650
 	-1   0    0    1   
 $EndComp
@@ -1212,6 +1294,8 @@ F 1 "100p" H 5286 2895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 2700 50  0001 C CNN
 F 3 "~" H 5400 2850 50  0001 C CNN
 F 4 "GRM1555C1H101JA01D" H 5400 2850 50  0001 C CNN "MPN"
+F 5 "0.1" H 5400 2850 50  0001 C CNN "Price"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H101JA01D/490-5922-1-ND/3721279" H 5400 2850 50  0001 C CNN "URL"
 	1    5400 2850
 	1    0    0    1   
 $EndComp
