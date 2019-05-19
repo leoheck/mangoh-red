@@ -1,4 +1,4 @@
-16016088785659583
+16020764299837583
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49133,6 +49133,13 @@ Through hole pin header THT 1x02 1.27mm single row
 2
 2
 MangOH-Red
+CONN_3P_0300x0310_RF_HIROSE
+Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/
+Hirose U.FL Coaxial
+0
+3
+2
+MangOH-Red
 CONN_3P_0762x0254_VERTICAL_HEADER_SINGLE_ROW_THRU_SAMTEC_TSW
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -49157,6 +49164,13 @@ MangOH-Red
 CONN_6P_0760x0510_HEADER_THRU_0254CC
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
 Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+MangOH-Red
+CONN_6P_1480x0640_AUDIO_JACK_DUAL
+PJ311 6pin SMD 3.5mm stereo headphones jack.
+headphones jack plug stereo 3.5mm PJ311
 0
 6
 6
@@ -49242,8 +49256,8 @@ DFN_8P_0250x0200_0065CC
 DFN8 2x2, 0.5P; CASE 506CN (see ON Semiconductor 506CN.PDF)
 DFN 0.5
 0
-11
-9
+8
+8
 MangOH-Red
 DFN_8P_0500x0600_SLUG_0420x0340_0127CC_ESIM_MODULE_MFF2
 DFN8 2x2, 0.5P; CASE 506CN (see ON Semiconductor 506CN.PDF)
@@ -49312,7 +49326,7 @@ QFN_16P_0400x0400_SLUG_0210x0210_0065CC
 QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
-21
+17
 17
 MangOH-Red
 QFN_20P_0250x0450_SLUG_0115x0315_0050CC
@@ -49384,6 +49398,13 @@ test point SMD pad
 0
 1
 1
+MangOH-Red
+SW_5P_0390x0290_0280CC_THRU_2P
+Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf
+
+0
+3
+2
 MangOH-Red
 SW_16P_1128x0620_0127CC_DIP_SPST
 SMD 8x-dip-switch SPST Omron_A6H-8101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
