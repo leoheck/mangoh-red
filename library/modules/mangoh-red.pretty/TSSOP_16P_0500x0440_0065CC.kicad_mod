@@ -1,4 +1,4 @@
-(module TSSOP_16P_0500x0440_0065CC (layer F.Cu) (tedit 5CE1E66A)
+(module TSSOP_16P_0500x0440_0065CC (layer F.Cu) (tedit 5CE1FB08)
   (descr "FE Package; 16-Lead Plastic TSSOP (4.4mm); Exposed Pad Variation BB; (see Linear Technology 1956f.pdf)")
   (tags "SSOP 0.65")
   (attr smd)
@@ -41,6 +41,6 @@
   (model ${KISYS3DMOD}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_P0.65mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
