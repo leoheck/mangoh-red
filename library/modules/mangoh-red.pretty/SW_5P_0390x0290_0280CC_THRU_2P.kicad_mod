@@ -1,4 +1,4 @@
-(module SW_5P_0390x0290_0280CC_THRU_2P (layer F.Cu) (tedit 5CE1B814)
+(module SW_5P_0390x0290_0280CC_THRU_2P (layer F.Cu) (tedit 5CE1FA55)
   (descr "Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf")
   (attr smd)
   (fp_text reference REF** (at 0 -3.4) (layer F.SilkS)
@@ -33,7 +33,7 @@
   (pad 2 smd rect (at -1.8 0.55 180) (size 0.7 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.8 0.55 180) (size 0.7 1.1) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 1.85 -0.8 180) (size 0.55 0.55) (drill 0.55) (layers *.Cu *.Mask))
-  (pad "" smd rect (at 0 0.7 180) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 0 0.7 180) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -1.85 -0.8 180) (size 0.55 0.55) (drill 0.55) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP7A.wrl
     (at (xyz 0 0 0))

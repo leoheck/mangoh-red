@@ -1,4 +1,4 @@
-16020764299837583
+16023882050471583
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49091,6 +49091,13 @@ diode
 3
 3
 MangOH-Red
+2016L
+Inductor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+MangOH-Red
 BGA_9P_0130x0120_0040CC_0023PD
 BGA-25, http://cds.linear.com/docs/en/datasheet/4624fc.pdf
 BGA-25 uModule
@@ -49138,7 +49145,7 @@ Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1
 Hirose U.FL Coaxial
 0
 3
-2
+3
 MangOH-Red
 CONN_3P_0762x0254_VERTICAL_HEADER_SINGLE_ROW_THRU_SAMTEC_TSW
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
@@ -49333,14 +49340,14 @@ QFN_20P_0250x0450_SLUG_0115x0315_0050CC
 QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
-32
+21
 21
 MangOH-Red
 QFN_20P_0500x0500_SLUG_0320x0320_0065CC
-QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=276), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
-32
+25
 21
 MangOH-Red
 QFN_24P_0400x0400_SLUG_0270x0270_0050CC
@@ -49358,11 +49365,11 @@ QFN DFN_QFN
 29
 MangOH-Red
 QFN_68P_0800x0800_SLUG_0550x0550_0040CC
-QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/tusb8041.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
-81
-65
+85
+69
 MangOH-Red
 SIERRA_WP_SNAP-IN_BASE
 
@@ -49404,7 +49411,7 @@ Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/AT
 
 0
 3
-2
+3
 MangOH-Red
 SW_16P_1128x0620_0127CC_DIP_SPST
 SMD 8x-dip-switch SPST Omron_A6H-8101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
@@ -49445,8 +49452,8 @@ TSSOP_16P_0500x0440_0065CC
 FE Package; 16-Lead Plastic TSSOP (4.4mm); Exposed Pad Variation BB; (see Linear Technology 1956f.pdf)
 SSOP 0.65
 0
-24
-17
+16
+16
 MangOH-Red
 ufl
 
@@ -49461,6 +49468,13 @@ resistor
 0
 5
 5
+MangOH-Red
+XTAL_4P_0250x0200
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

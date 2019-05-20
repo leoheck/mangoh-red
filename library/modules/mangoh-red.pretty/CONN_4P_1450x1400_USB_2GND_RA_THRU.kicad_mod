@@ -1,4 +1,4 @@
-(module CONN_4P_1450x1400_USB_2GND_RA_THRU (layer F.Cu) (tedit 5CE1C00D)
+(module CONN_4P_1450x1400_USB_2GND_RA_THRU (layer F.Cu) (tedit 5CE1F4C3)
   (descr "USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)")
   (tags "USB 3.0 type A right angle")
   (fp_text reference REF** (at 3.6 -2.35) (layer F.SilkS)
@@ -33,7 +33,7 @@
   (pad 5 thru_hole oval (at 10 3.3) (size 1.2 3.2) (drill oval 0.6 2.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at -2.95 3.3) (size 1.2 3.2) (drill oval 0.6 2.6) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/library/3dparts/87520-0010BLFc.step
-    (offset (xyz 3.5 1.5 2.5))
+    (offset (xyz 3.5 0.5 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

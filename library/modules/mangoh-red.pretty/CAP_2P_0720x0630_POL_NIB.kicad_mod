@@ -1,4 +1,4 @@
-(module CAP_2P_0720x0630_POL_NIB (layer F.Cu) (tedit 5CD4A22C)
+(module CAP_2P_0720x0630_POL_NIB (layer F.Cu) (tedit 5CE1F750)
   (descr "Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
   (tags "capacitor handsolder")
   (attr smd)
@@ -24,8 +24,8 @@
   (pad 1 smd roundrect (at -2.35 0) (size 1.7 6.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.119))
   (pad 2 smd roundrect (at 2.7 0) (size 2.4 6.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.119))
   (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_3640_9110Metric.step
-    (at (xyz 0 0 0))
-    (scale (xyz 0.8 0.6 1))
+    (offset (xyz 0.25 0 0))
+    (scale (xyz 0.75 0.6 0.75))
     (rotate (xyz 0 0 0))
   )
 )
